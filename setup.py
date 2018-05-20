@@ -15,7 +15,7 @@ requirements = [str(req.req) for req in install_requirements]
 
 setup(
     name="restcountries",
-    version="1.0.0b1",
+    version="1.0.0",
     description="A Python client for the RestCountries API.",
     license="MIT",
     author="Yakup Adaklı",
@@ -23,9 +23,9 @@ setup(
     url="http://github.com/yakupadakli/restcountries.git",
     packages=find_packages(exclude=["tests"]),
     install_requires=requirements,
-    keywords="restcountries library",
+    keywords="restcountries library countries",
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 5 - Production/Stable",
         "Topic :: Software Development :: Libraries",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
