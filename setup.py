@@ -15,7 +15,7 @@ requirements = [str(req.req) for req in install_requirements]
 
 setup(
     name="restcountries",
-    version="1.0.0",
+    version="1.1.0",
     description="A Python client for the RestCountries API.",
     license="MIT",
     author="Yakup Adaklı",
