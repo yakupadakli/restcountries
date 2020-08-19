@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="restcountries",
-    version="1.1.2",
+    version="1.1.3",
     description="A Python client for the RestCountries API.",
     license="MIT",
     author="Yakup Adaklı",
