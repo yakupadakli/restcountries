@@ -14,8 +14,8 @@ setup(
     url="http://github.com/yakupadakli/restcountries.git",
     packages=find_packages(exclude=["tests"]),
     install_requires=[
-        requests==2.20.0,
-        six==1.11.0,
+        "requests==2.20.0",
+        "six==1.11.0",
     ],
     keywords="restcountries library countries",
     classifiers=[
